@@ -1,6 +1,6 @@
 ﻿# Django 環境建置教學
 
-###1. 下載對應系統版本的Python 3
+### 1. 下載對應系統版本的Python 3
 <a href="https://www.python.org/downloads/release/python-365/"><img src="https://i.imgur.com/PbTLOI1.png"></a>
 - Win 32bits : Windows x86 executable installer
 - Win 64bits : Windows x86-64 executable installer
@@ -8,7 +8,7 @@
 #### ※ 安裝時請務必在 `Advanced Options` 內勾選 `Add Python to environment variables`
 #### ※ 在環境變數中自動加入 Python ，在終端機就可以直接使用 python 指令。
 
-###2. 創建虛擬環境
+### 2. 創建虛擬環境
 
 #### 　開啟系統終端機
 - Windows : Win+R > CMD > 執行
@@ -37,6 +37,7 @@
 > \> cd 0604
 
 ######　
+
 　　**Step 3**
 
 
