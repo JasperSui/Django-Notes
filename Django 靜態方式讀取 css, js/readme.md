@@ -1,5 +1,14 @@
 ﻿# Django中用靜態方式讀取 css, js 檔
 
+### 我的開發環境
+> - Windows 10 
+> - Python 3.6.5
+> - Django 1.11
+
+
+------------
+
+
 ### Step 1
 　
 進入 `Scripts` 中的專案資料夾 `mysite`，目錄層級如下：
