@@ -96,10 +96,11 @@
 > \> python manage.py runserver
 
 　　　　
-   　　若出現以下成功訊息，代表成功了！
+若出現以下成功訊息，代表成功了！
+
    <img src="https://i.imgur.com/M3h0ad6.jpg">
 
 
-### 大功告成，去 [http://127.0.0.1:8000](http://127.0.0.1:8000)
+### 大功告成，去 [http://127.0.0.1:8000](http://127.0.0.1:8000) 看看有沒有出現 Django 的頁面吧！
 
 <img src="https://i.imgur.com/BC5OdPg.jpg">
