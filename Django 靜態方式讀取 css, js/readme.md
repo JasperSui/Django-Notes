@@ -34,9 +34,9 @@ mysite/
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-		// 原 DIRS
+	// 原 DIRS
         'DIRS': [],
-		// 修改後的 DIRS
+	// 修改後的 DIRS
 		'DIRS': [os.path.join(BASE_DIR, 'templates'),
          os.path.join(BASE_DIR, 'static').replace('\\', '/')],
     },
@@ -113,9 +113,9 @@ STATICFILES_DIRS = (
 
 
 
-### ※ 注意事項
+**### ※ 注意事項**
 
 
-### 1. 因為是以靜態方式取得檔案，故若有更動以上檔案，必須重啟伺服器。
+**### 1. 因為是以靜態方式取得檔案，故若有更動以上檔案，必須重啟伺服器。**
 
-### 2. 最好以無痕式視窗重新讀取頁面，以免瀏覽器根據 Cache 讀取到舊的檔案。
+**### 2. 最好以無痕式視窗重新讀取頁面，以免瀏覽器根據 Cache 讀取到舊的檔案。**
