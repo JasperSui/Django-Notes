@@ -14,13 +14,14 @@
 - Windows : Win+R > CMD > 執行
 - Mac OSx : Terminal
 
-####　輸入指令
+#### 　輸入指令
+
 　　**Step 1** 
   
 　　安裝虛擬環境套件：
 >  pip3 install virtualenv
 
-######　
+###### 　
 
 　　**Step 2**
   
@@ -31,21 +32,26 @@
 
 
 > \> D:
+
 > \> mkdir Django
+
 > \> cd Django
+
 > \> mkdir 0604 // 以日期為例，可自行更改
+
 > \> cd 0604
 
-######　
+###### 　
 
 　　**Step 3**
 
 
-　　創建虛擬環境 `myenv`，並進入 `myenv` 下的 `Scripts` 資料夾
+　　創建虛擬環境 `jmt`，並進入 `jmt` 下的 `Scripts` 資料夾
   
-　　**（ 以 myenv 為例，可自行更改虛擬環境名稱 ）**
-> \> virtualenv myenv 
-> \> cd myenv\Scripts
+　　**（ 以 jmt 為例，可自行更改虛擬環境名稱 ）**
+> \> virtualenv jmt
+
+> \> cd jmt\Scripts
 
 ###### 　
 
@@ -57,7 +63,7 @@
 
 
 　　啟用成功後會看到你的路徑變成了：
-> ( myenv ) D:\Django\0604\myenv\Scripts>
+> ( jmt ) D:\Django\0604\jmt\Scripts>
 
 ###### 　
 
@@ -79,6 +85,7 @@
    　　接著新增一個專案，以 `mysite` 為例，並進入 `mysite` 資料夾
    
 > \> django-admin.py startproject mysite
+
 > \> cd mysite
 
 ###### 　
@@ -88,4 +95,11 @@
 
 > \> python manage.py runserver
 
+　　　　
+   　　若出現以下成功訊息，代表成功了！
+   <img src="https://i.imgur.com/M3h0ad6.jpg">
+
+
 ### 大功告成，去 [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+<img src="https://i.imgur.com/BC5OdPg.jpg">
