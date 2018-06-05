@@ -1,4 +1,4 @@
-﻿#Django中用靜態方式讀取 css, js 檔
+﻿# Django中用靜態方式讀取 css, js 檔
 
 ### Step 1
 　
