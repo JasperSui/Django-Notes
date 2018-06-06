@@ -8,13 +8,13 @@
 
 ------------
 
-### 前置動作
+### ※前置動作
 
 需在你的 `app` 目錄下自行新增 `templates` 和 `static` 資料夾
 
 `templates`：Django 預設 html 檔存放位置
 
-`static`：用來存放 `css`、`js`、`fonts`、`images`的起始資料夾，務必新增
+`static`：用來存放 `css`、`js`、`fonts`、`images` 的起始資料夾，務必新增
 
 
 ### Step 1
