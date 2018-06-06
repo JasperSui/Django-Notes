@@ -11,7 +11,7 @@
 
 ### Step 1
 　
-進入 `Scripts` 中的專案資料夾 `mysite`，目錄層級如下：
+進入 `Scripts` 中的專案資料夾 `mysite`，目錄層級如下（ `templates` 及 `static` 資料夾需自行新增 ）：
 　
 ```
 mysite/
@@ -64,6 +64,9 @@ TEMPLATES = [
 
 在 `mysite/settings.py` 最底部加入以下內容：
 
+```
+STATIC_URL = '/static/'
+```
 ```
 STATIC_ROOT = os.path.join(BASE_DIR, 'static').replace('\\', '/')
 ```
