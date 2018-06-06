@@ -8,10 +8,18 @@
 
 ------------
 
+### 前置動作
+
+需在你的 `app` 目錄下自行新增 `templates` 和 `static` 資料夾
+
+`templates`：Django 預設 html 檔存放位置
+
+`static`：用來存放 `css`、`js`、`fonts`、`images`的起始資料夾，務必新增
+
 
 ### Step 1
 　
-進入 `Scripts` 中的專案資料夾 `mysite`，目錄層級如下（ `templates` 及 `static` 資料夾需自行新增 ）：
+進入 `Scripts` 中的專案資料夾 `mysite`，目錄層級如下：
 　
 ```
 mysite/
