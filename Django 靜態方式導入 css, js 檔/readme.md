@@ -1,4 +1,4 @@
-﻿# Django中用靜態方式讀取 css, js 檔
+﻿# Django中以靜態方式導入 css, js 檔
 
 ### 我的開發環境
 > - Windows 10 
