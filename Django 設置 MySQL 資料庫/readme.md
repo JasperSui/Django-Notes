@@ -43,7 +43,8 @@ mysite/
  `mysite/__init__.py` 中加入：
 ```
 import pymysql
-pymysql.install_as_MySQLdb()```
+pymysql.install_as_MySQLdb()
+```
 
 ### Step 3
 `mysite/settings.py`
