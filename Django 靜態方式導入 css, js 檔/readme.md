@@ -52,10 +52,10 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
 
-	// 原 DIRS
+	# 原 DIRS
         'DIRS': [],
 
-	// 修改後的 DIRS
+	# 修改後的 DIRS
 	'DIRS': [os.path.join(BASE_DIR, 'templates'),
          os.path.join(BASE_DIR, 'static').replace('\\', '/')],
     },
