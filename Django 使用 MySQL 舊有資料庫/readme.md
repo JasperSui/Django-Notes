@@ -7,7 +7,7 @@
 > - MySQL Server 8.0
 
 ※ 如果還沒有設置資料庫，請先服用：
-<a href="https://tinyurl.com/y7to5xwz"></a>
+<a href="https://tinyurl.com/y7to5xwz">https://tinyurl.com/y7to5xwz</a>
 
 ------------
 
