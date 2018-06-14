@@ -38,6 +38,7 @@ mysite/
 安裝適用於 Python 3 的 MySQL 套件：
 
 > \> pip install mysqlclient
+
 > \> pip install django_mysql
 
 ### Step 2
